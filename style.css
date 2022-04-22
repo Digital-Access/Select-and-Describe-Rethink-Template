@@ -149,4 +149,9 @@ body {
         display: none !important;
     }
 
+    .selectionArea{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
 }
