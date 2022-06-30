@@ -1,24 +1,23 @@
 const config = {
-    title: "What type of campaign are you currently planning?",
+    title: "Planning your Webclass 2 Actions",
     question: "Share more details with us in the text areas below.",
     submit: "Submit",
     thanks: "Thank you for your submission, click the “Next Video” button to proceed now.",
-    celebrationImg_on: true,
-    celebration_image: "https://a.storyblok.com/f/112136/205x150/12867bb205/sporting-hero.png",
+    celebrationImg_on: false,
+    celebration_image: "",
     placeholder_text: [
-        "Type your Goal here...",
-        "Type your audience here...",
-        "Type your Objective here...",
-        "Type possible tactics here...",
-        "Type your metrics here"
+        "What is your objective in this action?",
+        "What are your tactics for this action?",
+        "What is your ideal outcome for this action?",
+        "How will you measure the outcome?"
     ],
-    image_on: true,
-    image: "https://a.storyblok.com/f/112136/373x445/175f800354/lucia-8.png",
-    selection_title: "Select your campaign type:",
+    image_on: false,
+    image: "",
+    selection_title: "Select your action type:",
     selection_options: [
-        "Awareness",
-        "Enablement",
-        "Demand"
+        "Blog",
+        "Optin",
+        "Free gifts"
     ]
 }
 
